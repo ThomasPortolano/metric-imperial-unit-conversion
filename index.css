@@ -7,7 +7,9 @@ body {
 
 #header{
     background-color: #6943FF;
+    border: 1px solid #6943FF;
 }
+
 h1 {
     padding: 33px;
     font-weight: 800;
@@ -15,7 +17,7 @@ h1 {
     font-size: 28px;
 }
 
-#addNumber {
+#inputNumber {
     width: 117px;
     height: 83px;
     background-color: transparent;
@@ -26,7 +28,7 @@ h1 {
 
 input[type="text"]{
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     padding-top: 20px;
     line-height: 24px;

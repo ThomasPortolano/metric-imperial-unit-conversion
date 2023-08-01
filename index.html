@@ -8,23 +8,23 @@
     <body>
         <div id="header">
             <h1>Metric/Imperial Unit Conversion</h1>
-            <input id="addNumber" type="text" placeholder="20">
+            <input id="inputNumber" type="text">
             <div><button id="convert-btn">Convert</button></div>
-            <script src="index.js"></script>
         </div>
         <div id="conversion">
             <div id class="unit">
-                <p class="unit-title">Length (Meter/Feet)</p>
-                <p class="unit-value">blabla</p>
+                <p class="unit-title" id="length-title">Length (Meter/Feet)</p>
+                <p id="length-el" class="unit-value">Please input a value</p>
             </div>
-            <div  id class="unit">
+            <div id class="unit">
                 <p class="unit-title">Volume (Liter/Gallon)</p>
-                <p class="unit-value">blabla</p>
+                <p id="volume-el" class="unit-value">Please input a value</p>
             </div>
             <div id class="unit">
                 <p class="unit-title">Weight (Kilogram/Pound)</p>
-                <p class="unit-value">blabla</p>
+                <p id="weight-el" class="unit-value">Please input a value</p>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
